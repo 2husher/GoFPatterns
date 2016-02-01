@@ -12,8 +12,6 @@
 
 @interface RavenAdapter : NSObject <BirdProtocol>
 
-@property (nonatomic, strong) Raven *raven;
-
 -(instancetype)initWithRaven:(Raven *)adaptee;
 
 @end

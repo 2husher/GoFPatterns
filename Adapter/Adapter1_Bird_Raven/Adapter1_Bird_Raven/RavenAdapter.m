@@ -8,6 +8,12 @@
 
 #import "RavenAdapter.h"
 
+@interface RavenAdapter ()
+
+@property (nonatomic, strong) Raven *raven;
+
+@end
+
 @implementation RavenAdapter
 
 - (instancetype)initWithRaven:(Raven *)adaptee {

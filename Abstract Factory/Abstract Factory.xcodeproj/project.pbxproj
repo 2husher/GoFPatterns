@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		179CE2241C614BEC000E363A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 179CE2231C614BEC000E363A /* main.m */; };
+		179CE22C1C614C28000E363A /* GenericIPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 179CE22B1C614C28000E363A /* GenericIPad.m */; };
+		179CE22F1C614C86000E363A /* GenericIPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 179CE22E1C614C86000E363A /* GenericIPhone.m */; };
+		179CE2321C614CC1000E363A /* AppleIPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 179CE2311C614CC1000E363A /* AppleIPhone.m */; };
+		179CE2351C614D1F000E363A /* AppleIPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 179CE2341C614D1F000E363A /* AppleIPad.m */; };
+		179CE2381C614D60000E363A /* ChinaPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 179CE2371C614D60000E363A /* ChinaPad.m */; };
+		179CE23B1C614DA5000E363A /* ChinaPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 179CE23A1C614DA5000E363A /* ChinaPhone.m */; };
+		179CE2421C614E8D000E363A /* IPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 179CE2411C614E8D000E363A /* IPhoneFactory.m */; };
+		179CE2451C614ED1000E363A /* AppleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 179CE2441C614ED1000E363A /* AppleFactory.m */; };
+		179CE2481C614F54000E363A /* ChinaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 179CE2471C614F54000E363A /* ChinaFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		179CE21E1C614BEC000E363A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		179CE2201C614BEC000E363A /* Abstract Factory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Abstract Factory"; sourceTree = BUILT_PRODUCTS_DIR; };
+		179CE2231C614BEC000E363A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		179CE22A1C614C28000E363A /* GenericIPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericIPad.h; sourceTree = "<group>"; };
+		179CE22B1C614C28000E363A /* GenericIPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericIPad.m; sourceTree = "<group>"; };
+		179CE22D1C614C86000E363A /* GenericIPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericIPhone.h; sourceTree = "<group>"; };
+		179CE22E1C614C86000E363A /* GenericIPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericIPhone.m; sourceTree = "<group>"; };
+		179CE2301C614CC1000E363A /* AppleIPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleIPhone.h; sourceTree = "<group>"; };
+		179CE2311C614CC1000E363A /* AppleIPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleIPhone.m; sourceTree = "<group>"; };
+		179CE2331C614D1F000E363A /* AppleIPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleIPad.h; sourceTree = "<group>"; };
+		179CE2341C614D1F000E363A /* AppleIPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleIPad.m; sourceTree = "<group>"; };
+		179CE2361C614D60000E363A /* ChinaPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChinaPad.h; sourceTree = "<group>"; };
+		179CE2371C614D60000E363A /* ChinaPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChinaPad.m; sourceTree = "<group>"; };
+		179CE2391C614DA5000E363A /* ChinaPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChinaPhone.h; sourceTree = "<group>"; };
+		179CE23A1C614DA5000E363A /* ChinaPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChinaPhone.m; sourceTree = "<group>"; };
+		179CE2401C614E8D000E363A /* IPhoneFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhoneFactory.h; sourceTree = "<group>"; };
+		179CE2411C614E8D000E363A /* IPhoneFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhoneFactory.m; sourceTree = "<group>"; };
+		179CE2431C614ED1000E363A /* AppleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleFactory.h; sourceTree = "<group>"; };
+		179CE2441C614ED1000E363A /* AppleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleFactory.m; sourceTree = "<group>"; };
+		179CE2461C614F54000E363A /* ChinaFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChinaFactory.h; sourceTree = "<group>"; };
+		179CE2471C614F54000E363A /* ChinaFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChinaFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		179CE21D1C614BEC000E363A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179CE2171C614BEC000E363A = {
+			isa = PBXGroup;
+			children = (
+				179CE2221C614BEC000E363A /* Abstract Factory */,
+				179CE2211C614BEC000E363A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		179CE2211C614BEC000E363A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179CE2201C614BEC000E363A /* Abstract Factory */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		179CE2221C614BEC000E363A /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				179CE23F1C614E5E000E363A /* Factory */,
+				179CE23C1C614DFE000E363A /* Generic */,
+				179CE23D1C614E18000E363A /* Apple */,
+				179CE23E1C614E26000E363A /* China */,
+				179CE2231C614BEC000E363A /* main.m */,
+			);
+			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		179CE23C1C614DFE000E363A /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				179CE22A1C614C28000E363A /* GenericIPad.h */,
+				179CE22B1C614C28000E363A /* GenericIPad.m */,
+				179CE22D1C614C86000E363A /* GenericIPhone.h */,
+				179CE22E1C614C86000E363A /* GenericIPhone.m */,
+			);
+			name = Generic;
+			sourceTree = "<group>";
+		};
+		179CE23D1C614E18000E363A /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				179CE2301C614CC1000E363A /* AppleIPhone.h */,
+				179CE2311C614CC1000E363A /* AppleIPhone.m */,
+				179CE2331C614D1F000E363A /* AppleIPad.h */,
+				179CE2341C614D1F000E363A /* AppleIPad.m */,
+			);
+			name = Apple;
+			sourceTree = "<group>";
+		};
+		179CE23E1C614E26000E363A /* China */ = {
+			isa = PBXGroup;
+			children = (
+				179CE2361C614D60000E363A /* ChinaPad.h */,
+				179CE2371C614D60000E363A /* ChinaPad.m */,
+				179CE2391C614DA5000E363A /* ChinaPhone.h */,
+				179CE23A1C614DA5000E363A /* ChinaPhone.m */,
+			);
+			name = China;
+			sourceTree = "<group>";
+		};
+		179CE23F1C614E5E000E363A /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				179CE2401C614E8D000E363A /* IPhoneFactory.h */,
+				179CE2411C614E8D000E363A /* IPhoneFactory.m */,
+				179CE2431C614ED1000E363A /* AppleFactory.h */,
+				179CE2441C614ED1000E363A /* AppleFactory.m */,
+				179CE2461C614F54000E363A /* ChinaFactory.h */,
+				179CE2471C614F54000E363A /* ChinaFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		179CE21F1C614BEC000E363A /* Abstract Factory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179CE2271C614BEC000E363A /* Build configuration list for PBXNativeTarget "Abstract Factory" */;
+			buildPhases = (
+				179CE21C1C614BEC000E363A /* Sources */,
+				179CE21D1C614BEC000E363A /* Frameworks */,
+				179CE21E1C614BEC000E363A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Abstract Factory";
+			productName = "Abstract Factory";
+			productReference = 179CE2201C614BEC000E363A /* Abstract Factory */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		179CE2181C614BEC000E363A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alex Izotov";
+				TargetAttributes = {
+					179CE21F1C614BEC000E363A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 179CE21B1C614BEC000E363A /* Build configuration list for PBXProject "Abstract Factory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 179CE2171C614BEC000E363A;
+			productRefGroup = 179CE2211C614BEC000E363A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				179CE21F1C614BEC000E363A /* Abstract Factory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		179CE21C1C614BEC000E363A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179CE2351C614D1F000E363A /* AppleIPad.m in Sources */,
+				179CE2241C614BEC000E363A /* main.m in Sources */,
+				179CE2481C614F54000E363A /* ChinaFactory.m in Sources */,
+				179CE2451C614ED1000E363A /* AppleFactory.m in Sources */,
+				179CE2321C614CC1000E363A /* AppleIPhone.m in Sources */,
+				179CE2381C614D60000E363A /* ChinaPad.m in Sources */,
+				179CE22C1C614C28000E363A /* GenericIPad.m in Sources */,
+				179CE2421C614E8D000E363A /* IPhoneFactory.m in Sources */,
+				179CE23B1C614DA5000E363A /* ChinaPhone.m in Sources */,
+				179CE22F1C614C86000E363A /* GenericIPhone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		179CE2251C614BEC000E363A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		179CE2261C614BEC000E363A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		179CE2281C614BEC000E363A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		179CE2291C614BEC000E363A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179CE21B1C614BEC000E363A /* Build configuration list for PBXProject "Abstract Factory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179CE2251C614BEC000E363A /* Debug */,
+				179CE2261C614BEC000E363A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179CE2271C614BEC000E363A /* Build configuration list for PBXNativeTarget "Abstract Factory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179CE2281C614BEC000E363A /* Debug */,
+				179CE2291C614BEC000E363A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 179CE2181C614BEC000E363A /* Project object */;
+}
